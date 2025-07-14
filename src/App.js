@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Quiz from "./components/Quiz";
+import Review from "./components/Review";
+import Result from "./components/Result";
+import "./styles/app.css";
 
-function App() {
+const App = () => {
+  const [step, setStep] = useState(0);
+  const [userAnswers, setUserAnswers] = useState({});
+
+  const handleNext = () => setStep((prev) => prev + 1);
+  const handleBack = () => setStep((prev) => prev - 1);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-wrapper">
+      {step === 0 && (
+        <Quiz onNext={handleNext} setUserAnswers={setUserAnswers} />
+      )}
+      {step === 1 && (
+        <Review
+          onNext={handleNext}
+          onBack={handleBack}
+          userAnswers={userAnswers}
+        />
+      )}
+      {step === 2 && (
+        <Result userAnswers={userAnswers} onRestart={() => setStep(0)} />
+      )}
     </div>
   );
-}
+};
 
 export default App;

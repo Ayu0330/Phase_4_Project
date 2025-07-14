@@ -1,0 +1,15 @@
+.result-block {
+  margin-bottom: 10px;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.result-block.correct {
+  background-color: #e0ffe0; /* light green */
+  border: 1px solid #28a745;
+}
+
+.result-block.incorrect {
+  background-color: #ffe0e0; /* light red */
+  border: 1px solid #dc3545;
+}

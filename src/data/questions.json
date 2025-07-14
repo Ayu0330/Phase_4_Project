@@ -1,0 +1,72 @@
+[
+  {
+    "id": "q1",
+    "question": "What is the capital of France?",
+    "options": ["Paris", "Rome", "Berlin", "Madrid"]
+  },
+  {
+    "id": "q2",
+    "question": "What is 2 + 2?",
+    "options": ["3", "4", "5", "6"]
+  },
+  {
+    "id": "q3",
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Earth", "Mars", "Jupiter", "Saturn"]
+  },
+  {
+    "id": "q4",
+    "question": "Who wrote 'Romeo and Juliet'?",
+    "options": [
+      "William Wordsworth",
+      "William Shakespeare",
+      "John Keats",
+      "Leo Tolstoy"
+    ]
+  },
+  {
+    "id": "q5",
+    "question": "What is the chemical symbol for water?",
+    "options": ["O2", "H2", "H2O", "OH"]
+  },
+  {
+    "id": "q6",
+    "question": "Which continent is the Sahara Desert located in?",
+    "options": ["Asia", "Africa", "Australia", "South America"]
+  },
+  {
+    "id": "q7",
+    "question": "What language is primarily spoken in Brazil?",
+    "options": ["Spanish", "Portuguese", "French", "English"]
+  },
+  {
+    "id": "q8",
+    "question": "What is the largest mammal on Earth?",
+    "options": ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"]
+  },
+  {
+    "id": "q9",
+    "question": "Which gas do plants absorb from the atmosphere?",
+    "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"]
+  },
+  {
+    "id": "q10",
+    "question": "Which part of the computer is considered the 'brain'?",
+    "options": ["RAM", "Hard Drive", "CPU", "Monitor"]
+  },
+  {
+    "id": "q11",
+    "question": "Which language is used for web apps?",
+    "options": ["Python", "Java", "JavaScript", "C++"]
+  },
+  {
+    "id": "q12",
+    "question": "What does CSS stand for?",
+    "options": [
+      "Cascading Style Sheets",
+      "Computer Style Sheets",
+      "Creative Style Sheets",
+      "Colorful Style Sheets"
+    ]
+  }
+]
